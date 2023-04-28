@@ -418,6 +418,8 @@ margin-top: 8px;
   align-items: center;
   margin-top: -0px;
  margin-bottom: 25px;
+ cursor: pointer;
+ 
 }
 
 #load-main {
@@ -427,7 +429,14 @@ margin-top: 8px;
   align-items: center;
   padding: 20px;
 }
-
+#load-main1{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: none;
+}
 .make-image img {
   width: 450.67px;
   height: 280px;
@@ -541,7 +550,7 @@ margin-top: 8px;
   justify-content: center;
   align-items: center;
   padding: 50px 0 ;
-  margin-top: -50px;
+  margin-top: -70px;
   font-size: 25px;
   color: #6A6A6A;
 }
@@ -1226,4 +1235,15 @@ font-size: 15px;
   display: flex;
   justify-content: space-between;
   overflow-x: hidden;
+}
+.cont2{
+  grid: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+display: none;
+}
+.Join{
+  margin-top: -40px;
+  padding: 0 0 40px;
 }

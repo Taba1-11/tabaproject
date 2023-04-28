@@ -26,3 +26,18 @@ document.querySelector('.dropbtn3').addEventListener('click', function() {
     dropdownContent.style.display = 'block';
   }
 });
+function loadmore() {
+  document.querySelector(".cont2").style.display = "block"
+  document.querySelector(".cont2").style.display = "flex"
+  document.querySelector("#load-main").style.display = "none"
+  document.querySelector("#load-main1").style.display = "block"
+  document.querySelector("#load-main1").style.display = "flex"
+
+}
+function loadmore1() {
+  document.querySelector(".cont2").style.display = "none"
+  document.querySelector("#load-main").style.display = "flex"
+  document.querySelector("#load-main1").style.display = "none"
+
+
+}
