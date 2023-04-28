@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #E2E0FF;
+  background-color: #faf8f8;
 
 }
 
@@ -676,16 +676,17 @@ margin-top: 8px;
 
 .im2 {
   margin-top: 10px;
+  display: flex;
 }
 
 
 .m2 {
-  margin-left: 22px;
+  padding: 0 10px;
 
 }
 
 .m3 {
-  margin-left: 15px;
+  
 }
 
 #Plan {
@@ -1220,4 +1221,9 @@ font-size: 15px;
   display: block;
  
   border-radius: 50px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
 }
