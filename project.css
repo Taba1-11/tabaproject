@@ -732,7 +732,9 @@ margin-top: 8px;
   margin-top: 10px;
   color: white;
 }
-
+.fa{
+  margin-left: 10px;
+}
 .plan4 {
   display: flex;
   justify-content: center;
