@@ -1050,7 +1050,7 @@ padding: 0 12rem;
   
  
 }
-#dur{
+.dur{
   font-size: 45px;
   color: #242565;
   margin-left: 15px;
@@ -1120,6 +1120,9 @@ padding: 0 10px;
 @media only screen and (max-width:500px){
   .cont{
     display: block;
+  }
+  .dur{
+    font-size: 20px;
   }
 }
 @media only screen and (max-width:500px){
