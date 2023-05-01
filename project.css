@@ -1050,7 +1050,7 @@ padding: 0 12rem;
   
  
 }
-.dur{
+#dur{
   font-size: 45px;
   color: #242565;
   margin-left: 15px;
@@ -1113,8 +1113,7 @@ padding: 0 10px;
 }
 @media only screen and (max-width:500px){
   .event-main{
-    display: block;
-     margin-left: 30%;
+   display: flex;
   }
   
 }
@@ -1145,6 +1144,9 @@ padding: 0 10px;
     margin-left: 40px;
    
   }
+  .cards-hover{
+    display: block;
+  }
 }
 @media only screen and (max-width:500px){
   #tkt1{
@@ -1173,7 +1175,108 @@ padding: 0 10px;
     display: block;
     margin-left: 150px;
   }
+  .event-main-buttons{
+ 
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 180px;
+   margin-right: 130px;
+  
+  }
+  .dropdown{
+    padding: 0 0 30px;
+   
+  }
+  #dur{
+ padding: 0 0 ;
+
+
+  }
+  .dropbtn3{
+display: flex;
+  }
+ 
+  }
+
+@media only screen and (max-width:500px){
+.make-image img{
+width: 200px;
+height: 100px;
+margin-top: 25%;
+margin-left: -1%;
+
 }
+.make-text{
+  display: flex;
+  width: 370px;
+  margin-top: -22%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+.make-image{
+  display: flex;
+  justify-content: left;
+ justify-content: center;
+}
+.make-text2{
+  width: 200px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-left: 50%;
+}
+.photos img{
+  padding: 10px;
+}
+
+.photos2 img{
+  display: block;
+  width: 100px;
+  padding: 10px;
+}
+.photos2{
+  display: block;
+  margin-left: 70px;
+  
+}
+.bl{
+  font-size: 40px;
+  margin-top: -20px;
+}
+.bl1{
+  margin-left: 50px;
+}
+.work{
+  flex-direction: column;
+  padding: 5px;
+}
+.num1{
+  width: 400px;
+  padding: 20px;
+}
+.num2{
+  width: 400px;
+  padding: 20px;
+}
+.num3{
+  width: 400px;
+  padding: 20px;
+}
+.footer-container{
+  flex-direction: column;
+  
+}
+.footer__eventtick-loop{
+  margin-left: -65px;
+}
+.footer__social-media{
+  margin-left: -40px;
+}
+}
+
 .text4{
   width: 300px;
 }
@@ -1191,12 +1294,14 @@ font-size: 15px;
  border: none;
  padding: 0 10px;
  cursor: pointer;
+
 }
 .dropbtn3 img {
   display: flex;
   justify-content: right;
   align-items: center;
-  margin-left:50px}
+  margin-left:50px;
+}
 
  
 .dropbtn3 button{
