@@ -41,4 +41,20 @@ function loadmore1() {
 
 
 }
+function burger() {
+  document.querySelector(".nav-bar").style.display = "block"
+  document.querySelector(".nav-bar").style.display = "flex"
 
+  document.querySelector(".hamburger").style.display = "none"
+  document.querySelector(".hamburger").style.display = "block"
+  
+ 
+  
+ 
+
+}
+function burger1() {
+  document.querySelector(".nav-bar").style.display = "none"
+  document.querySelector("nav-bar").style.display = "flex"
+  document.querySelector(".nav-bar").style.display = "none"
+}

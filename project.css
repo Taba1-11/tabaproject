@@ -117,6 +117,20 @@ header {
     background: white;
     margin: 6px 0;
   }
+  .hamburger1 .line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 6px 0;
+    cursor: pointer;
+   margin-left: 10px;
+  }
+  .logo{
+    margin-left: -40px;
+  }
+  .hamburger1{
+    cursor: pointer;
+  }
 
   .nav-bar {
     height: 450px;
